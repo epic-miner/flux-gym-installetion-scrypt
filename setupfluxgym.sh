@@ -13,13 +13,9 @@ echo "Cloning Fluxgym and kohya-ss/sd-scripts..."
 git clone https://github.com/cocktailpeanut/fluxgym
 cd fluxgym
 git clone -b sd3 https://github.com/kohya-ss/sd-scripts
-
 # Set up virtual environment
-eecho "Setting up virtual environment..."
-python3 -m venv env
-sleep 4
-source env/bin/activate
-
+python -m venv env
+. env/bin/activate
 # Install dependencies for sd-scripts
 echo "Installing sd-scripts dependencies..."
 cd sd-scripts
