@@ -47,5 +47,4 @@ wget -O models/unet/flux1-dev.sft https://huggingface.co/cocktailpeanut/xulf-dev
 
 # Final message
 echo "Setup complete. To start the app, run the following commands:"
-echo "source env/bin/activate"
 echo "python app.py"
