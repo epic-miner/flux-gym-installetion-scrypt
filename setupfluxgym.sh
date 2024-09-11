@@ -15,7 +15,7 @@ cd fluxgym
 git clone -b sd3 https://github.com/kohya-ss/sd-scripts
 # Set up virtual environment
 python -m venv env
-. env/bin/activate
+#. env/bin/activate
 # Install dependencies for sd-scripts
 echo "Installing sd-scripts dependencies..."
 cd sd-scripts
