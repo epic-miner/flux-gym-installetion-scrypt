@@ -17,7 +17,7 @@ git clone -b sd3 https://github.com/kohya-ss/sd-scripts
 # Set up virtual environment
 echo "Setting up virtual environment..."
 python3 -m venv env
-#source env/bin/activate
+source env/bin/activate
 
 # Install dependencies for sd-scripts
 echo "Installing sd-scripts dependencies..."
